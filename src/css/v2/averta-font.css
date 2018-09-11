@@ -1,0 +1,49 @@
+/* Averta Regular */
+@font-face {
+	font-family: 'Slack-Averta';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../fonts/averta/averta-regular.woff2') format('woff2'),
+		 url('../../fonts/averta/averta-regular.woff') format('woff');
+	unicode-range: U+0000-F8FE, U+F900-FFFF;
+}
+
+ /*Averta Light*/
+@font-face {
+	font-family: 'Slack-Averta';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../fonts/averta/averta-light.woff2') format('woff2'),
+		 url('../../fonts/averta/averta-light.woff') format('woff');
+	unicode-range: U+0000-F8FE, U+F900-FFFF;
+}
+
+ /*Averta Bold*/
+@font-face {
+	font-family: 'Slack-Averta';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../../fonts/averta/averta-bold.woff2') format('woff2'),
+		 url('../../fonts/averta/averta-bold.woff') format('woff');
+	unicode-range: U+0000-F8FE, U+F900-FFFF;
+}
+
+ /*Averta Black*/
+@font-face {
+	font-family: 'Slack-Averta';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../fonts/averta/averta-black.woff2') format('woff2'),
+		 url('../../fonts/averta/averta-black.woff') format('woff');
+	unicode-range: U+0000-F8FE, U+F900-FFFF;
+}
+
+ /*Averta Regular Italic*/
+@font-face {
+	font-family: 'Slack-Averta';
+	font-style: italic;
+	font-weight: 400;
+	src: url('../../fonts/averta/averta-regular-italic.woff2') format('woff2'),
+		 url('../../fonts/averta/averta-regular-italic.woff') format('woff');
+	unicode-range: U+0000-F8FE, U+F900-FFFF;
+}

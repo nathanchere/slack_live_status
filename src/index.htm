@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Slack System Status</title>
+    <link rel="stylesheet" href="css/v2/tooltips.css">
+    <link rel="stylesheet" href="css/v2/averta-font.css">
+    <link rel="stylesheet" href="css/v2/slack-icons-v2.css">
+    <link rel="stylesheet" href="css/v2/slack.css">
+</head>
+
+<body class="bg_lighter_gray">
+
+    <div id="nav_bar_section" class="sticky_header general_scope">
+        <div class="section">
+            <div id="nav_bar" class="flex_row align_center">
+                <div class="logo menu left">
+                    <a href="/" class="flex_row align_center">
+                        <img src="img/v2/LogoColor.png">
+                        <span class="padding_left_10px">Status</span>
+                    </a>
+                </div>
+                <div class="menu right">
+                    <a href="https://status.slack.com/" class="margin_right_25px">Dashboard</a>
+                    <a href="https://status.slack.com/calendar" class="margin_right_25px">History</a>
+                    <a id="back_to_app" href="https://my.slack.com/" class="margin_right_25px">Back to the App</a>
+                    <a href="https://twitter.com/slackstatus">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section nav_bar_filler"></div>
+
+    <div class="bg_white width_100">
+        <div class="section align_center justify_content_center">
+            <div class="container">
+				<!-- TODO: get real system status // -->
+                <img src="img/v2/livestatus.png">
+            </div>
+        </div>
+    </div>
+
+    <div id="recent_incidents_legend" class="section">
+        <div class="header">
+            <div class="flex_row flex_right align_center">
+                <div class="flex_row margin_right_25px uptime">
+                    <div>
+                        <p class="medium black_licorice">Uptime in the past 30 days:</p>
+                    </div>
+                    <div class="c-tooltip margin_left_5px">
+                        <p class="medium black_licorice">
+                            <span class="underline semi_bold"><!-- TODO: fix backend so this number is always true //-->99.9%</span>, excluding current outage</p>
+                        <div class="c-tooltip__content v--north v--border-white">
+                            <p class="semi_bold black_licorice">How is uptime calculated?</p>
+                            <p>Slack is a distributed platform and during any given incident it is rare for all Slack teams to be affected. For this reason, we report our uptime as an average derived from the number of affected users.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="/calendar" class="button">SEE HISTORY</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="footer">
+            <div class="info">
+                <p class="semi_bold tiny">All clear but still having trouble connecting to Slack?</p>
+                <div class="sub_info">
+                    <p class="tiny">Learn about <a href="https://get.slack.help/hc/en-us/articles/205138367-Troubleshoot-Slack-connection-issues" class="underline">common connection issues</a></p>
+                    <p class="tiny">&nbsp;or email us at <a href="mailto:feedback@slack.com" class="underline">feedback@slack.com</a>.</p>
+                </div>
+            </div>
+            <div class="links">
+                <p class="semi_bold tiny"><a href="https://slack.com">Slack.com</a></p>
+                <p class="semi_bold tiny"><a href="https://slack.com/help">Help Center</a></p>
+                <p class="semi_bold tiny"><a href="https://twitter.com/slackstatus">Twitter</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
